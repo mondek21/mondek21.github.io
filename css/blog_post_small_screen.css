@@ -8,22 +8,22 @@
       "ct"
       "sd"
       "ft";
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
   }
   .header2{
     grid-area: hd;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
   }
   .content2{
     grid-area: ct;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
   }
   .sidebar2{
     grid-area: sd;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
   }
   .footer2{
     grid-area: ft;
-    border: 2px solid orange;
+    /*border: 2px solid orange;*/
   }
 }
