@@ -1,0 +1,29 @@
+@media(max-width:700px){
+  .container2{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-auto-columns: minmax(50px, auto);
+    grid-template-areas:
+      "hd"
+      "ct"
+      "sd"
+      "ft";
+    border: 2px solid yellow;
+  }
+  .header2{
+    grid-area: hd;
+    border: 2px solid green;
+  }
+  .content2{
+    grid-area: ct;
+    border: 2px solid red;
+  }
+  .sidebar2{
+    grid-area: sd;
+    border: 2px solid blue;
+  }
+  .footer2{
+    grid-area: ft;
+    border: 2px solid orange;
+  }
+}

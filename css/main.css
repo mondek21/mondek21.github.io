@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  grid-auto-rows: minmax(50px, auto);
+  grid-template-columns: 1fr;
+  /*border: 1px solid red;*/
+}
+
+.header {
+
+  display: flex;
+  flex-direction: row;
+  /*border: 1px solid yellow;*/
+  justify-content: center;
+  background-image: url("pictures/white_wild_flowers_crop.jpg");
+
+}
+#flowers {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+
+}
+
+.box {
+  width: 33%;
+  /*border: 1px solid;*/
+  justify-content: center;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+h2{
+  color: blue;
+}
+
+.content {
+  display: grid;
+  grid-auto-rows: minmax(50px, auto);
+  grid-template-columns: 1fr 1fr;
+  /*border: 1px solid black;*/
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid grey;
+  margin: 5px;
+}
+
+.square {
+  width: 50%;
+  margin: 10px;
+}
+
+.rectangle {
+  width: 50%;
+  margin: 10px;
+}
+
+img {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100%;
+}
+
+.footer {
+  /*border: 1px solid orange;*/
+  text-align: center;
+}
