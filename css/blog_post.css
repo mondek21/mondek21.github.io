@@ -31,8 +31,7 @@
 
 .footer2{
   grid-area: ft;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   /*border: 2px solid red;*/
 }
 .narrative{
@@ -46,6 +45,9 @@
 .about{
   background-color: #ECECEC;
   padding: 10px;
+}
+#avatar{
+  width: 50%;
 }
 h4{
   font-weight: bold;
