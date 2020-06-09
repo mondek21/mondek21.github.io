@@ -5,7 +5,7 @@
     flex-direction: column-reverse;
     /*border: 1px solid red;*/
     justify-content: center;
-    background-image: url("pictures/white_wild_flowers_crop.jpg");
+    background-image: url("../pictures/white_wild_flowers_crop.jpg");
   }
   .box {
     width: 100%;
